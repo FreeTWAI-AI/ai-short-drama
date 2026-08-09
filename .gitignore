@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.local
+
+# Generated projects and media
+output/
+artifacts/
+videos/
+*.mp4
+*.mov
+*.wav
+
+# Personal continuity data
+private/
+memory/
+references/series-private-*.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
