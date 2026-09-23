@@ -1,5 +1,21 @@
 # ai-short-drama
 
+<!-- freedom-repository-guide:start -->
+## 在自由工坊的位置
+
+[自由工坊](https://freetwai.com) 讓會員先完成定位、選擇公會並領取 Repo 技能書，再以供貨、商店、開源作品、行銷與小隊共同完成成果。
+
+媒體與音樂公會的短劇敘事、製作包與剪輯交接技能來源。 保留上游 Skill、故事／Studio schemas、lint、範例和測試。
+
+核心 Skill 可產出製作規劃；成片渲染依賴另外的執行器，不因 Fork 就有雲端生成或自動發布。
+
+工坊 Fork：上游產品／授權來源為 [Hao0321/ai-short-drama](https://github.com/Hao0321/ai-short-drama)；本次協作的 Issue／PR 送到 **FreeTWAI-AI/ai-short-drama**，不是自動送往上游。
+
+程式／內容入口：[SKILL.md](SKILL.md)、[scripts/drama_lint.py](scripts/drama_lint.py)、[scripts/studio_lint.py](scripts/studio_lint.py)、[examples/](examples/)、[references/](references/)。協作先讀 [CONTRIBUTING.md](CONTRIBUTING.md)，讓 Agent 讀 [AGENTS.md](AGENTS.md)；從[本倉 Issues](https://github.com/FreeTWAI-AI/ai-short-drama/issues)認領、[查看既有 PR](https://github.com/FreeTWAI-AI/ai-short-drama/pulls)避免重工。
+
+原創劇本、授權素材與具日期模型能力分開保存。私人 Bible／角色／肖像素材不送平台；中央只連可公開成果與 repo。 跨 repo 的協定由[中央平台](https://github.com/FreeTWAI-AI/freedom-platform)維護。
+<!-- freedom-repository-guide:end -->
+
 > 把「假廢物真強者、重生、系統、隱藏大佬、逆襲」從題材標籤，編譯成有起承轉合、角色一致性、每集爽點與追更鉤子的 AI 短劇系統。
 
 `ai-short-drama` 是給 Codex、Claude Code 與相容 Skills 客戶端使用的開源 Skill。它負責故事與連載狀態，不把整部短劇塞進一條生成提示詞。
